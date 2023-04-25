@@ -8,4 +8,4 @@ pnpm install
 pnpm dev
 ```
 
-Then open demo/index.html in broswer, enjoy it! 
+Then open demo/index.html in broswer, enjoy it!

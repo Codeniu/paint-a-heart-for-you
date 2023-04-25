@@ -23,7 +23,7 @@ body {
  *
  * ...你好啊           
  *
- * 是我, 小牛.         
+ * 我是牛哥.         
  *
  * 我现在正在敲代码.            
  *
@@ -158,7 +158,7 @@ pre { left: 50%; }
 /* 加上一丢丢可爱 */
 
 #heart i::before {
-  content: 'LYT';
+  content: '田';
   position: absolute;
   z-index: 9;
   width: 100%;
