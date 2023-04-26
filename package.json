@@ -1,9 +1,13 @@
 {
-    "scripts": {
-        "dev": "coffee --watch --compile --output demo/ src/",
-        "build": "coffee --compile --output demo/ src/"
-    },
-    "dependencies": {
-        "coffee-script": "^1.12.7"
-    }
+  "scripts": {
+    "dev": "coffee --watch --compile --output src/ src/ && pnpm preview",
+    "build": "coffee --compile --output dist/ src/",
+    "preview": "http-server ./src/ -p 9000"
+  },
+  "dependencies": {
+    "coffee-script": "^1.12.7"
+  },
+  "devDependencies": {
+    "http-server": "^14.1.1"
+  }
 }
